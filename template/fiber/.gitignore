@@ -1,0 +1,22 @@
+env/*.yml
+.idea
+
+# Ignore generated wiring file
+wire_gen.go
+
+# Ignore automatically generated Swagger docs
+/docs*
+
+# Ignore .DS_Store
+.DS_Store
+
+vendor/
+
+*.iml
+*.exe
+
+scratch/
+
+certs/
+
+env/
