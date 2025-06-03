@@ -105,7 +105,6 @@ your-project/
 ├── utils/            # Global utilities
 ├── env_dev.yml.example # Configuration example
 ├── go.mod            # Go module file
-├── Makefile          # Build and development commands
 └── README.md         # Project documentation
 ```
 
@@ -192,22 +191,6 @@ The generated projects use Viper for configuration management and support:
 - **Environment variables**: Prefixed with service name
 - **Command line flags**: Standard Go flags
 
-## Available Make Commands
-
-Generated projects include a Makefile with common commands:
-
-```bash
-make build          # Build the application
-make run            # Run the application
-make test           # Run tests
-make test-coverage  # Run tests with coverage
-make deps           # Install dependencies
-make clean          # Clean build artifacts
-make fmt            # Format code
-make lint           # Lint code (requires golangci-lint)
-make dev            # Run in development mode (requires air)
-```
-
 ## Contributing
 
 1. Fork the repository
@@ -226,10 +209,6 @@ make dev            # Run in development mode (requires air)
 - `github.com/spf13/cobra`: CLI framework
 - `text/template`: Go template engine
 - `embed`: Go embedded file system
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
